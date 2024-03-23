@@ -1,0 +1,129 @@
+.mainbar-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem 6rem;
+    /* background-color: rgb(60, 95, 83); */
+}
+
+.chats{
+    background-color: rgba(28,30,58,1);
+    min-width: 100%;
+  
+    min-height: 70%;
+max-height: 35rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 20px;
+    gap: 1rem;
+    margin-top: 2rem;
+    scrollbar-width: thin;
+    overflow: auto;
+}
+
+.chats::-webkit-scrollbar {
+display: none;
+  }
+  
+  /* Handle */
+  .chats::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .chats::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.ai-generated-message{
+    gap: 1rem;
+}
+.ai-generated-message , .user-question{
+   
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    list-style: none;
+}
+
+
+.user-question{
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.user-question li{
+    display: flex;
+    align-items: center;
+}
+
+.ai-generated-message li{
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.send-img, .chat-icon{
+    height: 4rem;
+    width: 4rem;
+}
+
+.user-question .profile .profile-icon, .user-question .profile .icon-profile{
+    height: 3rem;
+    width: 3rem; 
+    border-radius: 10px;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+
+/* chat footer */
+.chat-footer{
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 63em;
+     padding: 0.5rem 1rem;
+    background: rgba(28,30,58,1);
+    border-radius: 10px;
+}
+.inp input{
+    padding: 1rem;
+   color: white;
+        width: calc(100% - 3rem);
+}
+
+.inp input, .inp .send-btn{
+    border: none;
+    outline: none;
+   
+background: transparent;
+}
+.inp .send-btn{
+    cursor: pointer;
+    filter: brightness(0) invert(1);
+}
+
+.inp .send-btn img{
+    width: 2rem;
+    height: 2rem;
+}
+/* chat footer */
