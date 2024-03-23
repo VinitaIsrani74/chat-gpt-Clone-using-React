@@ -1,5 +1,8 @@
-# Getting Started with Create React App
+# Chat-gpt Clone
 
+![Screenshot 2024-03-23 195141](https://github.com/VinitaIsrani74/chat-gpt-Clone-using-React/assets/138797388/1be307d7-cf72-4c6d-9ad7-4d5a29a36cd0)
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
